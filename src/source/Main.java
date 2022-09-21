@@ -5,9 +5,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Scanner;
 
-public class Main {
+public class Main extends IncorrectSalaryException{
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FieldLengthException, IncorrectSalaryException {
 
 
         Employee emp = new Employee();
@@ -22,22 +22,17 @@ public class Main {
 
         name = in.nextLine();
 
-        if(name.length()>6)
+        if(emp.validate_name(name))
         {
-             new FieldLengthException("Error Name is larger than max char allowed");
-        }else
-        {
-            emp.setName(name);
+             emp.setName(name);
         }
 
         System.out.println("Enter Surname:");
 
         surName = in.nextLine();
 
-        if(surName.length()>6)
+        if(emp.validate_surname(surName))
         {
-            new FieldLengthException("Error Surname is larger than max char allowed");
-        }else{
             emp.setSurname(surName);
         }
 
@@ -45,10 +40,10 @@ public class Main {
 
         salary = in.nextDouble();
 
-        if(salary<0)
+
+
+        if(emp.validate_salary(salary))
         {
-            new IncorrectSalaryException("Error Salary should not be negative");
-        }else {
             emp.setSalary(salary);
         }
 
@@ -59,4 +54,6 @@ public class Main {
 
 
     }
+
+
 }

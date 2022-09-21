@@ -1,12 +1,12 @@
 package source;
 
-public class Employee extends FieldLengthException{
+public class Employee {
 
     private int id;
-    static int nextId;
-    String name;
-    String Surname;
-    double salary;
+    private static int nextId;
+    private String name;
+    private String Surname;
+    private double salary;
 
 
     public Employee() {
@@ -61,4 +61,37 @@ public class Employee extends FieldLengthException{
     public void setSalary(double salary) {
         this.salary = salary;
     }
+
+
+    boolean validate_name(String n) throws  FieldLengthException{
+        if(n.length()>14)
+        {
+
+            throw new FieldLengthException("Error Name is larger than max char allowed");
+
+        }
+        return true;
+    }
+
+    boolean validate_surname(String s) throws FieldLengthException {
+        if(s.length()>14)
+        {
+
+            throw new FieldLengthException("Error Name is larger than max char allowed");
+
+        }
+        return true;
+    }
+
+    boolean validate_salary(double s) throws IncorrectSalaryException {
+        if(s<0)
+        {
+
+            throw new IncorrectSalaryException("Error Salary should not be negative");
+
+        }
+        return true;
+    }
+
+
 }

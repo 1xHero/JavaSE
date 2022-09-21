@@ -10,4 +10,6 @@ public class IncorrectSalaryException extends Exception {
         super(message);
     }
 
+
+
 }
