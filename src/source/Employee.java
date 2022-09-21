@@ -93,5 +93,12 @@ public class Employee {
         return true;
     }
 
+    public void printEmployee(){
+
+        System.out.println("Employee Id: "+id+" Name is: "+name+" "+Surname+ " Salary is:"+ salary);
+
+
+    }
+
 
 }

@@ -12,6 +12,7 @@ public class Main extends IncorrectSalaryException{
 
         Employee emp = new Employee();
         Scanner in = new Scanner(System.in);
+        int i=0;
 
         String name;
         String surName;
@@ -40,16 +41,15 @@ public class Main extends IncorrectSalaryException{
 
         salary = in.nextDouble();
 
-
-
         if(emp.validate_salary(salary))
         {
             emp.setSalary(salary);
         }
 
-        System.out.println("Name is :"+ emp.getName());
-        System.out.println("Surname is :"+ emp.getSurname());
-        System.out.println("Salary is :"+ emp.getSalary());
+        emp.setId(++i);
+
+
+        emp.printEmployee();
 
 
 
