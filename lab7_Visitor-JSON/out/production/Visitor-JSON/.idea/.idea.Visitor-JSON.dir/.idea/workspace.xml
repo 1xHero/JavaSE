@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5692a658-5892-4fe7-993b-a87386737149" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Main/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Race/Elf.java" beforeDir="false" afterPath="$PROJECT_DIR$/Race/Champion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Race/ElfFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Race/ChampionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Race/Halfling.java" beforeDir="false" afterPath="$PROJECT_DIR$/Race/Halfling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visitor/DataElementsVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Visitor/DataElementsVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visitor/ElementVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Visitor/ElementVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Assassin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/CharacterClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/CharacterClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/ClassFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/ClassFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Paladin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Fighter.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2JXjlaehFjTOgmGHEQ8odu3VNaa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="dev.polek.adbwifi.settings.AdbWifiConfigurable" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <created>1672231481623</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672231481623</updated>
+      <workItem from="1672231485786" duration="2000" />
+    </task>
+    <servers />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
